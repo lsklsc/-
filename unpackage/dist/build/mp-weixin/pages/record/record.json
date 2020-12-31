@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "垃圾清运登记日期",
+  "usingComponents": {
+    "range-date-pick": "/components/pyh-rdtpicker/pyh-rdtpicker"
+  }
+}

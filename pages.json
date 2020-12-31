@@ -1,0 +1,82 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+		    "path" : "pages/home/home",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "垃圾清运登记系统"
+		    }
+		    
+		},
+		{
+            "path" : "pages/reg/reg",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "资料填写",
+				"navigationBarBackgroundColor": "#00B079"
+			}
+            
+        },
+		{
+            "path" : "pages/clearancereg/clearancereg",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "垃圾清运登记"
+            }
+            
+        },
+		{
+            "path" : "pages/record/record",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "垃圾清运登记日期"
+            }
+            
+        },
+		{
+            "path" : "pages/information/information",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的"
+            }
+            
+        },
+		{
+            "path" : "pages/modifyInformation/modifyInformation",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "修改个人信息"
+            }
+            
+        },
+		{
+            "path" : "pages/subject/subject",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "主体资料修改",
+				"enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/register/register",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "资料填写",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTitleText": "",
+		"navigationBarBackgroundColor": "#00B079",
+		"backgroundColor": "#F8F8F8"
+	}
+}

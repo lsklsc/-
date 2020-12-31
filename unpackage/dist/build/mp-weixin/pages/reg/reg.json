@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "资料填写",
+  "navigationBarBackgroundColor": "#00B079",
+  "usingComponents": {
+    "robby-image-upload": "/components/robby-image-upload/robby-image-upload"
+  }
+}

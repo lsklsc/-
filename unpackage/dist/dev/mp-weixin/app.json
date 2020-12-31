@@ -1,0 +1,21 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/home/home",
+    "pages/reg/reg",
+    "pages/clearancereg/clearancereg",
+    "pages/record/record",
+    "pages/information/information",
+    "pages/modifyInformation/modifyInformation",
+    "pages/subject/subject",
+    "pages/register/register"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTitleText": "",
+    "navigationBarBackgroundColor": "#00B079",
+    "backgroundColor": "#F8F8F8"
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap14.json"
+}

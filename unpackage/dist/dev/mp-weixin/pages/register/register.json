@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "资料填写",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "robby-image-upload": "/components/robby-image-upload/robby-image-upload"
+  }
+}
