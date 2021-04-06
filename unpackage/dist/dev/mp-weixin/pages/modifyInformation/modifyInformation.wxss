@@ -31,8 +31,7 @@
   width: 678rpx;
   height: 78rpx;
   background: #00B079;
-  -webkit-border-radius: 50rpx;
-          border-radius: 50rpx;
+  border-radius: 50rpx;
   margin: 300rpx auto;
   text-align: center;
   line-height: 78rpx;
@@ -42,8 +41,7 @@
 .modifyInformation .list-wrap.data-v-1e0d7bec {
   width: 100%;
   padding: 0 25rpx;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 .modifyInformation .list-wrap .list.data-v-1e0d7bec {
   width: 100%;
@@ -74,8 +72,7 @@
   width: 174rpx;
   height: 60rpx;
   background: #00B079;
-  -webkit-border-radius: 200rpx;
-          border-radius: 200rpx;
+  border-radius: 200rpx;
   text-align: center;
   line-height: 60rpx;
   color: #FFFFFF;
@@ -99,16 +96,14 @@
 .modifyInformation .avatar-wrap .avatar.data-v-1e0d7bec {
   width: 150rpx;
   height: 150rpx;
-  -webkit-border-radius: 50%;
-          border-radius: 50%;
+  border-radius: 50%;
   position: relative;
   border: 1rpx solid #F0F0F0;
 }
 .modifyInformation .avatar-wrap .avatar > image.data-v-1e0d7bec {
   width: 150rpx;
   height: 150rpx;
-  -webkit-border-radius: 50%;
-          border-radius: 50%;
+  border-radius: 50%;
 }
 .modifyInformation .avatar-wrap .avatar .icons.data-v-1e0d7bec {
   width: 26rpx;
@@ -131,7 +126,6 @@
   position: absolute;
   bottom: 0;
   right: 0rpx;
-  -webkit-border-radius: 50%;
-          border-radius: 50%;
+  border-radius: 50%;
 }
 

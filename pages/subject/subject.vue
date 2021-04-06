@@ -11,8 +11,8 @@
 			<!-- 企业列表 -->
 			<view class="subject-item" v-for="(item,index) in list" :key="index" @click="subjectClick(item)">
 				<view class="name">{{item.name}}</view>
-				<view class="examine" :style="item.status==0?'color:#00B079':item.status==1?'':item.status==2?'color:#FF5454':''">
-					<!-- {{item.status==0?'审核中':item.status==1?'':item.status==2?'审核失败':''}} -->
+				<view class="examine"
+					:style="item.status==0?'color:#00B079':item.status==1?'':item.status==2?'color:#FF5454':''">
 					{{filterStatus(item.status)}}
 				</view>
 				<view class="icons" :class="item.status==0?'display':'icons'">
@@ -50,8 +50,8 @@
 					uni.navigateTo({
 						url: "../reg/reg?item=" + encodeURIComponent(JSON.stringify(item)) //审核通过
 					})
-					uni.setNavigationBarTitle({//跳转改变标题
-					　　title:"主题详情"
+					uni.setNavigationBarTitle({ //跳转改变标题
+						title: "主题详情"
 					})
 				}
 				if (item.status == 2) {
@@ -95,7 +95,7 @@
 				uni.navigateTo({
 					url: "../register/register"
 				})
-				
+
 			},
 			filterStatus(val) {
 				if (val == 0) return "待审核";

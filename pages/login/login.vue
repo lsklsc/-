@@ -246,6 +246,28 @@
 		color: #999;
 		line-height: 36rpx;
 	}
+	
+	//微信显示
+	.checkoutBox /deep/ .wx-checkbox-input {
+		border: 2px solid #00B079;
+		border-radius: 50%;
+		width: 38rpx;
+		height: 38rpx;
+	}
+	.checkoutBox /deep/ .wx-checkbox:not([disabled]),
+	.checkoutBox /deep/ .wx-checkbox-input:hover {
+		border-color: #00B079;
+	}
+	.checkoutBox /deep/ text {
+		height: 36rpx;
+		font-size: 28rpx;
+		font-family: PingFangSC-Regular, PingFang SC;
+		font-weight: 400;
+		color: #666;
+		line-height: 36rpx;
+	}
+	
+	
 
 	.content {
 		width: 100%;
@@ -484,23 +506,5 @@
 	// 	}
 	// }
 	
-	//微信显示
-	.checkoutBox /deep/ .wx-checkbox-input {
-		border: 2px solid #00B079;
-		border-radius: 50%;
-		width: 38rpx;
-		height: 38rpx;
-	}
-	.checkoutBox /deep/ .wx-checkbox:not([disabled]),
-	.checkoutBox /deep/ .wx-checkbox-input:hover {
-		border-color: #00B079;
-	}
-	.checkoutBox /deep/ text {
-		height: 36rpx;
-		font-size: 28rpx;
-		font-family: PingFangSC-Regular, PingFang SC;
-		font-weight: 400;
-		color: #666;
-		line-height: 36rpx;
-	}
+	
 </style>

@@ -49,7 +49,7 @@
 					<image src="../../static/img/youjiantou.png" mode="widthFix"></image>
 				</view>
 			</view>
-			
+
 			<!-- 企业名称 -->
 			<view class="regList">
 				<view class="title">企业名称</view>
@@ -66,7 +66,8 @@
 					</picker>
 				</view>
 				<view class="picker">
-					<picker @change="chidrenenterChange" :value="chidrenentIndex" :range="chidrenenterArr" range-key="name">
+					<picker @change="chidrenenterChange" :value="chidrenentIndex" :range="chidrenenterArr"
+						range-key="name">
 						<view>{{regName.chidrenName || '请选择子企业'}}</view>
 					</picker>
 				</view>
@@ -77,8 +78,8 @@
 			<!-- 营业执照 -->
 			<view class="License">
 				<view class="title">营业执照</view>
-				<robby-image-upload v-model="imageData" @delete="deleteImage" @add="addImage" :limit="limitNumber" :server-url="serverUrl"
-				 :file-key-name="fileKeyName" :form-data="formData">
+				<robby-image-upload v-model="imageData" @delete="deleteImage" @add="addImage" :limit="limitNumber"
+					:server-url="serverUrl" :file-key-name="fileKeyName" :form-data="formData">
 				</robby-image-upload>
 			</view>
 			<view class="submit" @click="submitBtn">提交</view>
@@ -116,19 +117,19 @@
 				chidrenenterArr: [], //子级企业列表
 				entIndex: 0, //父企业索引
 				chidrenentIndex: 0, //子级企业索引
-				cityIndex:0,//城市索引
-				areaIndex:0,//区索引
-				streetIndex:0,//街道索引
-				commIndex:0,//社区索引
-				regName: {//页面展示的数据
+				cityIndex: 0, //城市索引
+				areaIndex: 0, //区索引
+				streetIndex: 0, //街道索引
+				commIndex: 0, //社区索引
+				regName: { //页面展示的数据
 					city_name: "",
 					area_name: "",
 					street_name: "",
 					comm_name: "",
 					enter: '', //企业名称
-					chidrenName: '',//子企业名称
+					chidrenName: '', //子企业名称
 				},
-				regData: {//后台传的字段
+				regData: { //后台传的字段
 					city: "",
 					name: "",
 					org_type_id: "",
@@ -165,7 +166,7 @@
 			},
 			//所在区域选择
 			bindPickerCoding(e) {
-				if(this.areaIndex != e.detail.value){
+				if (this.areaIndex != e.detail.value) {
 					this.regName.street_name = ''
 					this.regData.street_coding = ''
 					this.regName.comm_name = ''
@@ -180,7 +181,7 @@
 			},
 			//所在街道选择
 			bindPickerStreet(e) {
-				if(this.streetIndex != e.detail.value){
+				if (this.streetIndex != e.detail.value) {
 					this.regName.comm_name = ''
 					this.regData.comm_coding = ''
 					this.commIndex = 0
@@ -199,7 +200,7 @@
 			},
 			//父级企业选择
 			async enterChange(e) {
-				if(this.entIndex != e.detail.value){
+				if (this.entIndex != e.detail.value) {
 					this.chidrenentIndex = ''
 					this.regName.chidrenName = ''
 					this.regData.org_sub_type_id = ''
@@ -270,7 +271,7 @@
 						this.isShow = true;
 					} else {
 						uni.showToast({
-							title: '提示',
+							title: res.data.msg,
 							icon: "none"
 						})
 					}
@@ -278,7 +279,7 @@
 				}).catch(err => {
 					console.log(err)
 					uni.showToast({
-						title: err.data.errors.name[0],
+						title: res.data.msg,
 						icon: "none"
 					})
 				})
@@ -320,7 +321,7 @@
 			modifyUp() {
 
 			},
-			
+
 			// 新增图片
 			addImage(e) {
 				this.imageData = e.allImages
@@ -335,7 +336,11 @@
 </script>
 
 <style lang="scss" scoped>
-	input{ font-size: 30rpx !important;color: #9A9A9A !important;}
+	input {
+		font-size: 30rpx !important;
+		color: #9A9A9A !important;
+	}
+
 	.list-wrap {
 		width: 100%;
 		padding: 15rpx 20rpx;

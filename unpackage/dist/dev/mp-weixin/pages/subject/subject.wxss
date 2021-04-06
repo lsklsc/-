@@ -28,8 +28,7 @@
   width: 90%;
   height: 80rpx;
   background: #00B079;
-  -webkit-border-radius: 50rpx;
-          border-radius: 50rpx;
+  border-radius: 50rpx;
   color: #FFFFFF;
   font-size: 28rpx;
   line-height: 80rpx;
@@ -45,17 +44,14 @@
   height: 100%;
   padding: 25rpx;
   background-color: #F4F4F4;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 .subject-wrap .subject.data-v-66de5760 {
   width: 100%;
   padding: 10rpx 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   background: #FFFFFF;
-  -webkit-border-radius: 3px;
-          border-radius: 3px;
+  border-radius: 3px;
   font-size: 34rpx;
   color: #2D2D2D;
 }
@@ -70,8 +66,7 @@
           align-items: center;
   border-bottom: 1rpx solid #ECECEC;
   padding: 0 20rpx;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 .subject-wrap .subject .subject-item .name.data-v-66de5760 {
   -webkit-box-flex: 1;
@@ -98,8 +93,7 @@
   display: -webkit-box;
   display: -webkit-flex;
   display: flex;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   -webkit-box-align: center;
   -webkit-align-items: center;
           align-items: center;

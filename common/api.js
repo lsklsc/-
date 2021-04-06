@@ -42,7 +42,6 @@ http.interceptor.request = (config) => {
 }
 //设置请求结束后拦截器
 http.interceptor.response = (response) => {
-	// console.log(response)
 	uni.hideLoading();
 	//判断返回状态 执行相应操作
 	return response;

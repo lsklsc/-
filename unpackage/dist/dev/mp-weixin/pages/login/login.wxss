@@ -29,8 +29,7 @@
 }
 .checkoutBox.data-v-b237504c .uni-checkbox-input {
   border: 2px solid #00B079;
-  -webkit-border-radius: 50%;
-          border-radius: 50%;
+  border-radius: 50%;
   width: 38rpx;
   height: 38rpx;
 }
@@ -42,6 +41,24 @@
   height: 36rpx;
   font-size: 32rpx;
   color: #999;
+  line-height: 36rpx;
+}
+.checkoutBox.data-v-b237504c .wx-checkbox-input {
+  border: 2px solid #00B079;
+  border-radius: 50%;
+  width: 38rpx;
+  height: 38rpx;
+}
+.checkoutBox.data-v-b237504c .wx-checkbox:not([disabled]),
+.checkoutBox.data-v-b237504c .wx-checkbox-input:hover {
+  border-color: #00B079;
+}
+.checkoutBox.data-v-b237504c text {
+  height: 36rpx;
+  font-size: 28rpx;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #666;
   line-height: 36rpx;
 }
 .content.data-v-b237504c {
@@ -62,8 +79,7 @@
   background-color: #00B079;
   line-height: 62rpx;
   padding-top: 20rpx;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   position: relative;
   text-align: center;
 }
@@ -101,13 +117,11 @@
   width: 100%;
   height: 600rpx;
   background: #FFFFFF;
-  -webkit-border-radius: 48rpx 48rpx 0px 0px;
-          border-radius: 48rpx 48rpx 0px 0px;
+  border-radius: 48rpx 48rpx 0px 0px;
   position: absolute;
   top: 530rpx;
   padding: 50rpx 40rpx 0 40rpx;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 .content .loginBox .register.data-v-b237504c {
   text-align: center;
@@ -121,8 +135,7 @@
   width: 528rpx;
   height: 84rpx;
   background: #00B079;
-  -webkit-border-radius: 64rpx;
-          border-radius: 64rpx;
+  border-radius: 64rpx;
   margin: auto;
   margin-top: 50rpx;
   margin-bottom: 20rpx;
@@ -139,8 +152,7 @@
 .content .loginBox .iphon-input > input.data-v-b237504c {
   position: relative;
   padding-left: 50rpx;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 .content .loginBox .iphon-input > image.data-v-b237504c {
   width: 22rpx;
@@ -164,15 +176,13 @@
 }
 .content .loginBox .password-input > input.data-v-b237504c {
   padding-left: 50rpx;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 .content .loginBox .password-input .code.data-v-b237504c {
   width: 184rpx;
   height: 64rpx;
   background: #00B079;
-  -webkit-border-radius: 64px;
-          border-radius: 64px;
+  border-radius: 64px;
   text-align: center;
   line-height: 64rpx;
   color: #FFFFFF;
@@ -180,24 +190,5 @@
   top: -14rpx;
   font-size: 26rpx;
   right: 0;
-}
-.checkoutBox.data-v-b237504c .wx-checkbox-input {
-  border: 2px solid #00B079;
-  -webkit-border-radius: 50%;
-          border-radius: 50%;
-  width: 38rpx;
-  height: 38rpx;
-}
-.checkoutBox.data-v-b237504c .wx-checkbox:not([disabled]),
-.checkoutBox.data-v-b237504c .wx-checkbox-input:hover {
-  border-color: #00B079;
-}
-.checkoutBox.data-v-b237504c text {
-  height: 36rpx;
-  font-size: 28rpx;
-  font-family: PingFangSC-Regular, PingFang SC;
-  font-weight: 400;
-  color: #666;
-  line-height: 36rpx;
 }
 

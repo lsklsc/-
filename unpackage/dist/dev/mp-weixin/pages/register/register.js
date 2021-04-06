@@ -92,9 +92,28 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "recyclableRender", function() { return recyclableRender; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "components", function() { return components; });
-var components = {
-  robbyImageUpload: function() {
-    return __webpack_require__.e(/*! import() | components/robby-image-upload/robby-image-upload */ "components/robby-image-upload/robby-image-upload").then(__webpack_require__.bind(null, /*! @/components/robby-image-upload/robby-image-upload.vue */ 91))
+var components
+try {
+  components = {
+    robbyImageUpload: function() {
+      return __webpack_require__.e(/*! import() | components/robby-image-upload/robby-image-upload */ "components/robby-image-upload/robby-image-upload").then(__webpack_require__.bind(null, /*! @/components/robby-image-upload/robby-image-upload.vue */ 91))
+    }
+  }
+} catch (e) {
+  if (
+    e.message.indexOf("Cannot find module") !== -1 &&
+    e.message.indexOf(".vue") !== -1
+  ) {
+    console.error(e.message)
+    console.error("1. 排查组件名称拼写是否正确")
+    console.error(
+      "2. 排查组件是否符合 easycom 规范，文档：https://uniapp.dcloud.net.cn/collocation/pages?id=easycom"
+    )
+    console.error(
+      "3. 若组件不符合 easycom 规范，需手动引入，并在 components 中注册该组件"
+    )
+  } else {
+    throw e
   }
 }
 var render = function() {
@@ -135,6 +154,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 /* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _regenerator = _interopRequireDefault(__webpack_require__(/*! ./node_modules/@babel/runtime/regenerator */ 14));
+
 
 
 
@@ -406,7 +426,7 @@ var _utils = _interopRequireDefault(__webpack_require__(/*! @/common/utils.js */
           _this3.isShow = true;
         } else {
           uni.showToast({
-            title: '提示',
+            title: res.data.msg,
             icon: "none" });
 
         }
@@ -414,7 +434,7 @@ var _utils = _interopRequireDefault(__webpack_require__(/*! @/common/utils.js */
       }).catch(function (err) {
         console.log(err);
         uni.showToast({
-          title: err.data.errors.name[0],
+          title: res.data.msg,
           icon: "none" });
 
       });

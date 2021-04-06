@@ -31,8 +31,7 @@ input.data-v-891c2434 {
 .list-wrap.data-v-891c2434 {
   width: 100%;
   padding: 15rpx 20rpx;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 .list-wrap .failed.data-v-891c2434 {
   width: 100%;
@@ -65,12 +64,10 @@ input.data-v-891c2434 {
   width: 580rpx;
   height: 586rpx;
   background: #FFFFFF;
-  -webkit-border-radius: 20rpx;
-          border-radius: 20rpx;
+  border-radius: 20rpx;
   text-align: center;
   padding-top: 90rpx;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 .list-wrap .mask-wrap .content > image.data-v-891c2434 {
   width: 114rpx;
@@ -85,8 +82,7 @@ input.data-v-891c2434 {
   width: 394rpx;
   height: 78rpx;
   background: #00B079;
-  -webkit-border-radius: 48rpx;
-          border-radius: 48rpx;
+  border-radius: 48rpx;
   margin: 60rpx auto;
   text-align: center;
   line-height: 78rpx;
@@ -107,8 +103,7 @@ input.data-v-891c2434 {
   line-height: 78rpx;
   color: #FFFFFF;
   font-size: 28rpx;
-  -webkit-border-radius: 24px;
-          border-radius: 24px;
+  border-radius: 24px;
 }
 .list-wrap .cancellationBtn.data-v-891c2434 {
   background-color: #FF4400;
@@ -134,8 +129,7 @@ input.data-v-891c2434 {
           flex: 2;
   color: #9A9A9A;
   padding-left: 20rpx;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   font-size: 30rpx;
 }
 .list-wrap .regList .img > image.data-v-891c2434 {

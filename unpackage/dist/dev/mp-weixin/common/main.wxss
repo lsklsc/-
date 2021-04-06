@@ -39,8 +39,7 @@
 /*每个页面公共css */
 /* @import './common/uni.css'; */
 view {
-	-webkit-box-sizing: border-box;
-	        box-sizing: border-box;
+	box-sizing: border-box;
 }
 page,
 page,

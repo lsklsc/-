@@ -27,8 +27,7 @@
 .home.data-v-92bb8f34 {
   width: 100%;
   padding: 30rpx 20rpx;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   color: #666666;
 }
 .home .switch-wrap.data-v-92bb8f34 {
@@ -66,11 +65,9 @@
   text-align: center;
   float: right;
   background: #FFFFFF;
-  -webkit-border-radius: 17px;
-          border-radius: 17px;
+  border-radius: 17px;
   padding: 0 20rpx;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   border: 1rpx solid #EAEAEA;
 }
 .home .switch-wrap .switch-body .switchBtn .picker.data-v-92bb8f34 {
@@ -106,8 +103,7 @@
   height: 108rpx;
   background: -webkit-linear-gradient(194deg, #18c1fe 0%, #44a4fe 100%);
   background: linear-gradient(256deg, #18c1fe 0%, #44a4fe 100%);
-  -webkit-border-radius: 16rpx;
-          border-radius: 16rpx;
+  border-radius: 16rpx;
   display: -webkit-box;
   display: -webkit-flex;
   display: flex;
@@ -131,8 +127,7 @@
   font-size: 32rpx;
   color: #FFFFFF;
   padding-left: 8rpx;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 .home .menu .item.data-v-92bb8f34 {
   background: -webkit-linear-gradient(194deg, #15c3fe 0%, #44a5ff 100%);
@@ -185,8 +180,7 @@
   height: 232rpx;
   background: -webkit-linear-gradient(194deg, #2BC0CF 0%, #06D4CA 100%);
   background: linear-gradient(256deg, #2BC0CF 0%, #06D4CA 100%);
-  -webkit-border-radius: 16rpx;
-          border-radius: 16rpx;
+  border-radius: 16rpx;
   margin-top: 24rpx;
   display: -webkit-box;
   display: -webkit-flex;
@@ -211,7 +205,6 @@
   color: #FFFFFF;
   font-size: 36rpx;
   padding-left: 20rpx;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
